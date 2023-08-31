@@ -1,0 +1,22 @@
+.app_dark_theme {
+    --bg-image: url("https://vesta.uclan.ac.uk/~ikostin/uclan-merch-shop/assets/UCLAN_Background.svg");
+    --bg-color: #1e1e1e;
+    --sidebar-bg-color: #383838;
+    --inverted-bg-color: #be1622;
+    --inverted-bg-color-edge: #9f131c;
+    --primary-color: #e5e5df;
+    --secondary-color: #ffffff;
+    --inverted-primary-color: #e3dfdf;
+    --inverted-secondary-color: #007FB0;
+    --inverted-bg-color-015: #170203;
+}
+
+.app_dark_theme #UCLan_Logo_svg__Shield_1_ {
+    --shield: #ffffff;
+}
+
+.app_dark_theme .react-loading-skeleton {
+    --base-color: #666;
+    --highlight-color: #4f4f4f;
+    background-color: #666;
+}

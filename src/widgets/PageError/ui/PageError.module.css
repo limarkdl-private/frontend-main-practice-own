@@ -1,0 +1,38 @@
+.PageError {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.PageErrorContainer {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ErrorMessage {
+    font-size: 24px;
+    font-weight: bolder;
+    color: red;
+}
+
+.Apologizing {
+    text-align: center;
+}
+
+.ReloadButton {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all 0.3s;
+}

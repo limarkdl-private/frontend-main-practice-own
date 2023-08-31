@@ -1,0 +1,60 @@
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 275px;
+}
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0.5em 0 0.5em 0;
+  position: relative;
+}
+
+.inputGroup input {
+  font-size: 95%;
+  padding: 0.8em;
+  outline: none;
+  color: var(--primary-color);
+  border: 2px solid var(--inverted-bg-color);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.inputGroup label {
+  font-size: 95%;
+  position: absolute;
+  left: 0;
+  padding: 0.8em;
+  margin-left: 0.5em;
+  border-radius: 1em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: rgb(165, 165, 165);
+}
+
+.inputGroup :is(input:focus, input:valid)~label {
+  transform: translateY(-50%) scale(.9);
+  margin: 0em;
+  margin-left: 1.3em;
+  padding: 0.4em;
+  background-color: var(--sidebar-bg-color);
+}
+
+.inputGroup :is(input:focus, input:valid) {
+  border-color: #757575;
+}
+
+.loginBtn {
+  margin-top: 12px;
+  margin-left: auto;
+}
+
+.statusAndLoginBtn {
+  display: flex;
+}
+
+.errorStatus {
+  font-size: var(--font-size-s);
+  color: var(--primary-color);
+}
