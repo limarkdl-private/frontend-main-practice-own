@@ -1,8 +1,0 @@
-.pageLoader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    height: calc(100dvh - var(--navbar-height));
-    width: max-content;
-}

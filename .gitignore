@@ -1,8 +1,0 @@
-.idea
-node_modules
-/storybook-static
-/.loki/report.html
-/.loki/report.json
-.vscode
-extractedTranslations
-*.php
