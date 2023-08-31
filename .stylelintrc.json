@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "stylelint-config-recommended"
+  ],
+  "rules": {
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "compose"
+        ]
+      }
+    ],
+    "block-no-empty": null,
+    "max-nesting-depth": null
+  },
+  "ignoreFiles": [
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/build/**"
+  ]
+}

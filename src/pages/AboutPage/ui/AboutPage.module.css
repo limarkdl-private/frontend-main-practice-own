@@ -1,0 +1,46 @@
+.ContactUsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    background: var(--inverted-bg-color-015);
+    padding: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.ContactUsList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.AboutPage {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.ContactUsListItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.HeadersGap {
+    margin-bottom: 10px;
+}
+
+.HeadersGapSlogan {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.ParagraphGap {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
